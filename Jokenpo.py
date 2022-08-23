@@ -3,9 +3,9 @@ import time #Importei a biblioteca time para criar um espaço de tempo entre os 
 opcoes = ('Pedra', 'Papel', 'Tesoura') #Opções de jogada tanto do computado quanto do jogador
 cpu = randint(0, 2) #Utilizando o randint pra sortear números entre 0 e 2
 print('''Suas opções
-[1] PEDRA
-[2] PAPEL
-[3] TESOURA''') #Aqui estaremos printando as opções que o usuário pode escolher
+[0] PEDRA
+[1] PAPEL
+[2] TESOURA''') #Aqui estaremos printando as opções que o usuário pode escolher
 player = int(input('Qual vai ser sua jogada?')) #Usuário escolhe sua jogada
 print('PEDRA')
 time.sleep(1)#Usando o sleep para ter um delay de 1 segundo entre os prints
