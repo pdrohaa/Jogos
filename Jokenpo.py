@@ -11,7 +11,7 @@ print('PEDRA')
 time.sleep(1)#Usando o sleep para ter um delay de 1 segundo entre os prints
 print('PAPEL')
 time.sleep(1)
-print('TESOOOOOOOOOURA')
+print('TESOURA')
 time.sleep(1)
 print('-='*15) #Apenas visual
 print('O computador escolheu {}'.format(opcoes[cpu])) #Aqui ele vai usar o randint para sortear os valores dentro da variável OPCOES para o computador
